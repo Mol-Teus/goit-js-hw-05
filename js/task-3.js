@@ -3,7 +3,7 @@ const sortByDescendingFriendCount = (users) => {
 };
 
 // Приклад використання
-const users = [
+const Friendusers = [
     { name: 'Alice', friends: ['Bob', 'Charlie'] },
     { name: 'Bob', friends: ['Alice', 'David', 'Eve'] },
     { name: 'Charlie', friends: ['Alice'] },
@@ -12,7 +12,7 @@ const users = [
 ];
 
 // Виклик функції
-const sortedUsers = sortByDescendingFriendCount(users);
+const sortedUsers = sortByDescendingFriendCount(Friendusers);
 console.log(sortedUsers);
 
 console.log(

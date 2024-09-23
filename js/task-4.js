@@ -5,7 +5,7 @@ const getTotalBalanceByGender = (users, gender) => {
 };
 
 // Приклад використання
-const users = [
+const Genderusers = [
     { name: 'Alice', gender: 'female', balance: 5000 },
     { name: 'Bob', gender: 'male', balance: 7000 },
     { name: 'Charlie', gender: 'male', balance: 5053 },
@@ -13,8 +13,8 @@ const users = [
 ];
 
 // Виклики функції
-console.log(getTotalBalanceByGender(users, 'male'));   // 12053
-console.log(getTotalBalanceByGender(users, 'female')); // 8863
+console.log(getTotalBalanceByGender(Genderusers, 'male'));   // 12053
+console.log(getTotalBalanceByGender(Genderusers, 'female')); // 8863
 
 const clients = [
 	{

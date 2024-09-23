@@ -1,9 +1,9 @@
 const getUsersWithFriend = (users, friendName) => {
-    return users.filter(user => user.friends.includes(friendName));
+    return  users.filter(user => user.friends.includes(friendName));
 };
 
 // Приклад використання
-const users = [
+const  usersList = [
     { name: 'Sharlene Bush', friends: ['Briana Decker', 'Goldie Gentry'] },
     { name: 'Sheree Anthony', friends: ['Briana Decker', 'Goldie Gentry'] },
     { name: 'Elma Head', friends: ['Goldie Gentry'] },
@@ -11,9 +11,9 @@ const users = [
 ];
 
 // Тести
-console.log(getUsersWithFriend(users, 'Briana Decker'));  
-console.log(getUsersWithFriend(users, 'Goldie Gentry'));  
-console.log(getUsersWithFriend(users, 'Adrian Cross'));    
+console.log(getUsersWithFriend(usersList, 'Briana Decker'));  
+console.log(getUsersWithFriend(usersList, 'Goldie Gentry'));  
+console.log(getUsersWithFriend(usersList, 'Adrian Cross'));    
 
 
 const allUsers = [
